@@ -1,0 +1,13 @@
+.doctors{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 15px;
+    height: 500px;
+    border: 1px solid #42cfb5;
+    border-radius: 20px;
+}
+.doctors img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}

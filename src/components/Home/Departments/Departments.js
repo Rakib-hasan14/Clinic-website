@@ -6,8 +6,12 @@ import './Departments.css'
 const Departments = () => {
     const { departments} = useDepartments();
     return (
+        <div className='department-bg py-5'>
         <div className='container'>
-            <div className='row'>
+        <div>
+            <h1 className='text-white text-center mb-5'>Our Departments</h1>
+        </div>
+            <div className='custom-grid'>
             {
                 departments.map(department => <SingleDepartments
                 key={department.id}
@@ -15,6 +19,7 @@ const Departments = () => {
                 ></SingleDepartments>)
             }
             </div>
+        </div>
         </div>
     );
 };
