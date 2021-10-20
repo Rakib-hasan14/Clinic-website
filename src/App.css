@@ -1,7 +1,26 @@
 .App {
   text-align: center;
 }
-
+.web-primary{
+  color: #42cfb5;
+}
+.web-primary-bg{
+  background-color: #42cfb5;
+}
+.web-btn{
+  background-color: #043f34;
+  border: 1px solid #001411;
+  border-radius: 5px;
+  color: white;
+  padding: 8px 20px;
+  margin-top: 15px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.web-btn:hover{
+  background-color: #3b9786;
+  border: 1px solid;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
