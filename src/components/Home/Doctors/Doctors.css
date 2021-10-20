@@ -3,11 +3,18 @@
     grid-template-columns: repeat(3 , 1fr);
     gap: 15px;
     height: 500px;
-    border: 1px solid #42cfb5;
+    
+}
+.detail-doc{
+    border: 2px solid #2e8373;
     border-radius: 20px;
+    padding: 10px;
+    background-color: #42cfb5;
+    box-shadow: 2px 4px 4px 1px gray;
 }
 .doctors img{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-
+    height: 200px;
+    width: 100%;
 }
