@@ -7,6 +7,7 @@ import Contact from './components/Contact/Contact';
 import Register from './components/Register/Register';
 import Login from './components/Login/Login';
 import Footer from './components/Footer/Footer';
+import Testimonials from './components/Testimonials/Testimonials';
 function App() {
 
   return (
@@ -20,6 +21,9 @@ function App() {
          </Route>
          <Route path="/contact">
             <Contact></Contact>   
+         </Route>
+         <Route path="/testimonials">
+            <Testimonials></Testimonials> 
          </Route>
          <Route path="/login">
             <Login></Login>

@@ -20,7 +20,7 @@ const Login = () => {
             </form>
             <h6 className='mt-4'>---------or----------</h6>
             <button onClick={googleSignIn} className='web-btn mt-4'>Google Sign in</button>
-           
+            {user.name || <p className="text-danger">{error}</p>}
 
         </div>
     );
