@@ -8,6 +8,7 @@ import Register from './components/Register/Register';
 import Login from './components/Login/Login';
 import Footer from './components/Footer/Footer';
 import Testimonials from './components/Testimonials/Testimonials';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 function App() {
 
   return (
@@ -22,9 +23,9 @@ function App() {
          <Route path="/contact">
             <Contact></Contact>   
          </Route>
-         <Route path="/testimonials">
+         <PrivateRoute path="/testimonials">
             <Testimonials></Testimonials> 
-         </Route>
+         </PrivateRoute>
          <Route path="/login">
             <Login></Login>
          </Route>

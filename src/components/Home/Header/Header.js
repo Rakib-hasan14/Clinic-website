@@ -5,6 +5,7 @@ import './Header.css'
 
 const Header = () => {
     const {user , logOut} = useAthentication()
+    console.log(user.displayName)
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light m-0 p-0">
@@ -21,7 +22,7 @@ const Header = () => {
                     <Link className="nav-link nav-style" to="/login">Log in</Link>
                     <Link className="nav-link nav-style" to="/registration">Regitration</Link>
                     {
-                        user.displayName && <div>
+                        user.email && <div>
                             <p className='d-inline mx-3 my-0'>Hello, {user.displayName}</p>
                         <button onClick={logOut} className='web-btn  mt-0'>Log out</button>
                         </div>

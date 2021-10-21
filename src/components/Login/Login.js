@@ -2,12 +2,12 @@ import React from 'react';
 import useAthentication from '../Home/hooks/getUser';
 
 const Login = () => {
-    const {googleSignIn , error , user} = useAthentication()
+    const {googleSignIn , error , user , logInWithEmailAndPassword} = useAthentication()
 
     return (
         <div className='text-center mb-5'>
             <h1 className='web-primary border-top pt-5 mb-5'>Log in!</h1>
-            <form>
+            <form onSubmit={logInWithEmailAndPassword}>
             
                 <label className='me-4 text-left fw-bold' htmlFor="email">Email</label>
                 <input type="email" placeholder='Your email'/>
