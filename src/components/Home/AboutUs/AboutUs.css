@@ -1,8 +1,10 @@
 .about-sec{
     background-color: rgba(0, 128, 128, 0.678);
 }
-.about-det{
-    height: 600px;
+.about-sec-res{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    
 }
 .about-img{
 
@@ -10,4 +12,14 @@
 .about-img img{
     width: 100%;
     height: 300px;
+}
+
+/* ----Responsive---- */
+@media screen and (max-width: 500px){
+    .about-sec-res{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+    .about-det{
+        margin-bottom: 10px;
+    }
 }

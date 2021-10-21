@@ -1,15 +1,15 @@
 import React from 'react';
-
+import './Footer.css'
 const Footer = () => {
     return (
         <div>
             <div className='bg-secondary p-5 text-white'>
-            <div className='d-flex align-items-center text-center'>
-                <div className='w-50'>
+            <div className='footer align-items-center text-center'>
+                <div>
                     <h3>Our Clinik</h3>
                     <p className='mt-4'>We always try to make pateint good . Our certified doctors are always stay in hospital, we have 75 certified doctors in our hospital.We always try to satisfied everyone.we have many stafs.</p>
                 </div>
-                <div className='w-50'>
+                <div>
                     <h3>Contact us</h3>
                     <h6 className='mt-4'>Phone: +6345746435763</h6>
                     <h6>Email: our.clinik@gmail.com</h6>

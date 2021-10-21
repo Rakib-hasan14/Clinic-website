@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     gap: 15px;
-    height: 500px;
     
 }
 .detail-doc{
@@ -11,10 +10,20 @@
     padding: 10px;
     background-color: #42cfb5;
     box-shadow: 2px 4px 4px 1px gray;
+    margin-bottom: 15px;
 }
 .doctors img{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 200px;
     width: 100%;
+    margin-bottom: 15px;
 }
+
+
+/* -----Responsive----- */
+@media only screen and (max-width: 500px){
+    .doctors{
+     grid-template-columns: repeat(1 , 1fr);
+    }
+  }
