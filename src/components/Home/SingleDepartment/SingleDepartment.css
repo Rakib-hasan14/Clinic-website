@@ -1,13 +1,19 @@
 .department{
-    height: 550px;
+    height: 590px;
     border: 1px solid teal;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     z-index: 111;
+    position: relative;
 }
 .department img{
     width: 100%;
     height: 300px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+.set-btn{
+    position: absolute;
+    bottom: 26px;
+    left: 37%;
 }

@@ -5,7 +5,6 @@ import './Header.css'
 
 const Header = () => {
     const {user , logOut} = useAthentication()
-    console.log(user.displayName)
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-light m-0 p-0">

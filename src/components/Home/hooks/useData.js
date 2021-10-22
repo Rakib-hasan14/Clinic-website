@@ -5,13 +5,16 @@ const useData = () => {
     const [departments , setDepartments] = useState([])
 
     useEffect(() => {
-    fetch('./fakeData.json')
+    fetch('/fakeData.json')
     .then(res => res.json())
     .then(data=> setDepartments(data))
     } ,[])
 
 
-    return{departments , setDepartments}
+    return{
+        departments , 
+        setDepartments
+    }
 }
 
 export default useData;

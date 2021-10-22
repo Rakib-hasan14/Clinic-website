@@ -18,3 +18,13 @@
     z-index: -1;
     display: block;
 }
+
+
+@media screen and (max-width: 500px) {
+    .scnd-banner{
+        padding: 150px 0px;
+    }
+    .res-css{
+        width: 90%!important;
+    }
+}

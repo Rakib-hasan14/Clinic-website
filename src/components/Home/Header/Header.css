@@ -5,3 +5,18 @@
 .nav-style{
     color: #50e7cc;
 }
+
+@media screen and (max-width: 500px) {
+    .logo {
+        font-size: 30px;
+        width: 250px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 350px) {
+    .logo {
+        font-size: 25px;
+        width: 200px;
+        text-align: center;
+    }
+}

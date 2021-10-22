@@ -1,4 +1,3 @@
-import { getAuth } from '@firebase/auth';
 import React from 'react';
 import { Redirect, Route } from 'react-router';
 import useAthentication from '../Home/hooks/getUser';

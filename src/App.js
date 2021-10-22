@@ -9,6 +9,8 @@ import Login from './components/Login/Login';
 import Footer from './components/Footer/Footer';
 import Testimonials from './components/Testimonials/Testimonials';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import NotFound from './components/NotFound/NotFound';
+import Details from './components/Details/Details';
 function App() {
 
   return (
@@ -16,7 +18,10 @@ function App() {
       <BrowserRouter>
       <Header></Header>
        <Switch>
-         
+
+         <Route exact path="/">
+            <Home></Home>
+         </Route>
          <Route path="/home">
             <Home></Home>
          </Route>
@@ -32,8 +37,12 @@ function App() {
          <Route path="/registration">
             <Register></Register>
          </Route>
-         <Route excat path="/">
-            <Home></Home>
+         <PrivateRoute path="/details/:dataId">
+            <Details></Details>
+         </PrivateRoute>
+         
+         <Route path="*">
+            <NotFound></NotFound>
          </Route>
 
        </Switch>

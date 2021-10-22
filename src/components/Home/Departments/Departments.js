@@ -1,11 +1,10 @@
 import React from 'react';
 import useData from '../hooks/useData';
-import useDepartments from '../hooks/useDepartments';
 import SingleDepartments from '../SingleDepartment/SingleDepartments';
 import './Departments.css'
 
 const Departments = () => {
-    const { departments} = useData();
+    const { departments} = useData()
     return (
         <div className='department-bg py-5'>
         <div className='container'>
