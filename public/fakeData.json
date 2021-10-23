@@ -3,36 +3,36 @@
       "id":1,
       "name":"Cardiology",
       "description":"Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist. Cardiology is a branch of internal medicine. ",
-      "img":"https://www.linkpicture.com/q/1_31.jpg"
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj7nJOH8BguT0lMOLXBYG1u2FowWl2l1BeMA&usqp=CAU"
    },
    {
       "id":2,
       "name":"Ophthalmology",
       "description":"Ophthalmology is the study of medical conditions relating to the eye. ... A general practice doctor may refer someone to an ophthalmologist if they show symptoms of cataracts, eye infections, optic nerve problems, or other eye conditions.",
-      "img":"https://www.linkpicture.com/q/2_232.jpg"
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIbXVfBf11DkzFn0sC0ZwKrYtnHuCjHLRGAw&usqp=CAU"
    },
    {
       "id":3,
       "name":"Pulmonary",
       "description":"he lungs are a pair of spongy, air-filled organs located on either side of the chest (thorax). The trachea (windpipe) conducts inhaled air into the lungs through its tubular branches, called bronchi. The bronchi then divide into smaller and smaller branches (bronchioles).",
-      "img":"https://www.linkpicture.com/q/3_442.jpg"
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX6keeGTXEHNpyOsE5guR1enzoEOH5Qj8-IA&usqp=CAU"
    },
    {
       "id":4,
       "name":"Dental",
       "description":"The human teeth function to mechanically break down items of food by cutting and crushing them in preparation for swallowing and digesting. Humans have four types of teeth: incisors, canines, premolars, and molars, which each have a specific function. ",
-      "img":"https://www.linkpicture.com/q/4_238.jpg"
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYOZPPSZPVNvNT-kxf9MjkykWp5o6FR-g7EQ&usqp=CAU"
    },
    {
       "id":5,
       "name":"Diagnostics",
       "description":"Health systems around the world seek to address patients’ unmet health needs for a range of acute and chronic diseases. Simultaneously, governments strive to keep healthcare spending sustainable, while providing equal access to high-quality care.",
-      "img":"https://www.linkpicture.com/q/5_182.jpg"
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPkkCOo8UJ9eyJcJNfCWb7QtKcvNDRL6FqvQ&usqp=CAU"
    },
    {
       "id":6,
       "name":"Laboratory",
       "description":"A medical laboratory or clinical laboratory is a laboratory where tests are carried out on clinical specimens to obtain information about the health of a patient to aid in diagnosis, treatment, and prevention of disease.",
-      "img":"https://www.linkpicture.com/q/6_286.jpg"
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQpgwC6fHMxS0jCQJpZOu_dUCBscYzNEtsAw&usqp=CAU"
    }
 ]
