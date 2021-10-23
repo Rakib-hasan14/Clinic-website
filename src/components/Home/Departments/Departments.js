@@ -9,7 +9,7 @@ const Departments = () => {
         <div className='department-bg py-5'>
         <div className='container'>
         <div>
-            <h1 className='text-white text-center mb-5'>Our Departments</h1>
+            <h1 className='text-white text-center mb-5 departments-title'>Our Departments</h1>
         </div>
             <div className='custom-grid'>
             {

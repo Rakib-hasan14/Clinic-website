@@ -1,6 +1,6 @@
 .department-bg{
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6GO08NcqH_SD5m_TB7wXPmbNso41Bs4ZISg&usqp=CAU');
-    background-position: fixed;
+    background-position: center;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
@@ -8,22 +8,19 @@
 .department-bg::before{
     content: '';
     position: absolute;
+    display: block;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #29b49b28;
-    background-image: linear-gradient(to-left , rgba(0,0,0,0,1), #42cfb577  );
-    z-index: -1;
+    background-color: #29b49bc4;
     display: block;
+    z-index: -1;
 }
 .custom-grid{
     display: grid;
     grid-template-columns: repeat(3 ,  1fr);
     gap: 15px;
-}
-.departments-title{
-    color: teal;
 }
 
 

@@ -5,7 +5,7 @@ import './Doctors.css'
 const Doctors = () => {
     return (
         <div className='h-100 py-5 mb-5'>
-            <h1 className="title text-center web-primary">Our certified Doctors</h1>
+            <h1 className="title text-center web-primary my-5">Our certified Doctors</h1>
             <div className="doctors container">
                 <div className='detail-doc'>
                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0traH9XtYS3bZejVjbsOTm2Ir1724YEn7gw&usqp=CAU" alt="" />

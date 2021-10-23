@@ -25,9 +25,9 @@ function App() {
          <Route path="/home">
             <Home></Home>
          </Route>
-         <Route path="/contact">
+         <PrivateRoute path="/contact">
             <Contact></Contact>   
-         </Route>
+         </PrivateRoute>
          <PrivateRoute path="/testimonials">
             <Testimonials></Testimonials> 
          </PrivateRoute>

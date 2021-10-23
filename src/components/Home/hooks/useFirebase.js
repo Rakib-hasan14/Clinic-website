@@ -20,20 +20,13 @@ const useFirebase = () =>{
     // Google
 
     const googleSignIn = () =>{
-        signInWithPopup(auth , googleProvide)
-        .then(result => {
-            const user = result.user;
-            console.log(user)
-            setUser(user)
-        })
-        .catch(error => {
-            setError(error.message)
-        })
+       return signInWithPopup(auth , googleProvide);  
     }
 
     const logOut = () => {
       signOut(auth).then(() => {
         setUser({})
+        
       }).catch((error) => {
         setError(error.message)
       });
@@ -108,6 +101,8 @@ const useFirebase = () =>{
         getName,
         signUpEmailAndPassword,
         logInWithEmailAndPassword,
+        setUser,
+        setError,
         user,
         error
     }

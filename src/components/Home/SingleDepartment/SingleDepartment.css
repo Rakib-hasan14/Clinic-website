@@ -3,7 +3,7 @@
     border: 1px solid teal;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    z-index: 111;
+    z-index: 9999;
     position: relative;
 }
 .department img{

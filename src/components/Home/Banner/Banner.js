@@ -7,7 +7,7 @@ const Banner = () => {
         const history = useHistory()
 
     const checkoutService = () => {
-        history.push('/departments')
+        history.push('/testimonials')
     }
     return (
         <div className='banner'>
